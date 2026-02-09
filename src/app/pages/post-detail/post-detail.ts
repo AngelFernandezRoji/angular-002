@@ -34,4 +34,7 @@ export class PostDetailComponent {
       error: (e) => console.error('Error borrando:', e),
     });
   }
+
+
+  
 }
