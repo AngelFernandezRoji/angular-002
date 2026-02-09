@@ -8,6 +8,6 @@ export const routes: Routes = [
     { path: 'posts', component: PostsListComponent },
     { path: 'posts/new', component: PostFormComponent },
     { path: 'posts/:id', component: PostDetailComponent },
-    //{ path: 'posts/:id/edit', component: PostFormComponent },
+    { path: 'posts/:id/edit', component: PostFormComponent },
     { path: '**', redirectTo: 'posts' },
 ];
